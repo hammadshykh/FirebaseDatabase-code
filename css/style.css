@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: url("../images/242-2427615_simple-colored-geometric-forms-wallpaper-simple-top-background.jpg")
+    no-repeat center/cover;
+}
+
+label {
+  color: gray;
+}
+.text-center .fa-user {
+  padding: 30px;
+  border-radius: 99px;
+  border: 1px solid #fff;
+  font-size: 25px;
+  color: white;
+}
+.container {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: right;
+}
+form {
+  width: 500px;
+  margin: 60px right;
+  background-color: #1a202c;
+  color: white;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 12px black;
+}
+.form-controls {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  width: 100%;
+  outline: none;
+  color: white;
+}
+.select {
+  margin: 0 30px;
+}
+p {
+  font-size: 20px;
+  text-shadow: 1px 0px 5px black;
+}
+
+.text-center img {
+  width: 100px;
+  display: block;
+}
+.text-center {
+  justify-content: center;
+  display: flex;
+}
+
+.fa-eye,
+.fa-eye-slash {
+  float: right;
+  cursor: pointer;
+}
+.fa-eye:hover {
+  color: yellow;
+}
+
+.active {
+  border: 2px solid green;
+}
